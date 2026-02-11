@@ -1,3 +1,4 @@
+console.log("Bus schedule API initialized");
 module.exports = async (req, res) => {
   try {
     console.log("Request received:", req.query);
